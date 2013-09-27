@@ -6,7 +6,7 @@ $('#custom').css('top','70%');
 
 if($("#comment").length){        
 	$('#custom').click(function () {
-	$('div#form').focus();
+		document.location.href=document.location.href + '#disqus_thread';
 	});
 } 
 else {
