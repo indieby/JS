@@ -6,7 +6,7 @@ $('#custom').css('top','70%');
 
 if($("#comment").length){        
 	$('#custom').click(function () {
-		document.location.href=document.location.href + '#disqus_thread';
+		document.location.href=document.location.href.split('#')[0] + '#disqus_thread';
 	});
 } 
 else {
