@@ -11,7 +11,7 @@ if($("#comment").length){
 } 
 else {
 $('#custom').click(function () {
-	window.location='http://indie-game.blog.tut.by/o-bloge';
+	window.location='http://indie-game.blog.tut.by/o-bloge#disqus_thread';
 	});
 };
 $('#custom').mouseover(function(){
