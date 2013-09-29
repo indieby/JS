@@ -1,7 +1,7 @@
 $('.page-item-445 > a').removeAttr('href');
 $('#container').before('\
 <div class="myTags">\
-<a href="http://indie-game.blog.tut.by/tag/kazualki">казуалки</a>\
+<a href="http://indie-game.blog.tut.by/tag/kazualki">casual</a>\
 <a href="http://indie-game.blog.tut.by/tag/cipher-prime">Cipher Prime</a>\
 <a href="http://indie-game.blog.tut.by/tag/dear-esther">Dear Esther</a>\
 <a href="http://indie-game.blog.tut.by/tag/hotline-miami">Hotline Miami</a>\
