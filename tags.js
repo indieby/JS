@@ -7,8 +7,8 @@ $('#container').before('\
 <a href="http://indie-game.blog.tut.by/tag/hotline-miami">Hotline Miami</a>\
 <a href="http://indie-game.blog.tut.by/tag/indie-bundle">indie-bundle</a>\
 <a href="http://indie-game.blog.tut.by/tag/fez">FEZ</a>\
-<a href="http://indie-game.blog.tut.by/tag/filmyi">инди-фильмы</a>\
-<a href="http://indie-game.blog.tut.by/tag/indi-foto">инди-фото</a>\
+<a href="http://indie-game.blog.tut.by/tag/filmyi">фильмы</a>\
+<a href="http://indie-game.blog.tut.by/tag/indi-foto">pictures</a>\
 <a href="http://indie-game.blog.tut.by/tag/8-bit">8-bit</a>\
 <a href="http://indie-game.blog.tut.by/tag/onlayn-indi">онлайн-инди</a>\
 <a href="http://indie-game.blog.tut.by/tag/flesh-indi">флэш-инди</a>\
