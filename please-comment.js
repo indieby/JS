@@ -4,16 +4,18 @@ locateCustom();
 
 $('#custom').css('top','70%');
 
-if($("#comment").length){        
+function bindClickPleaseComment(){
+	if($("#comment").length){        
+		$('#custom').click(function () {
+			document.location.href=document.location.href.split('#')[0] + '#disqus_thread';
+		});
+	} 
+	else {
 	$('#custom').click(function () {
-		document.location.href=document.location.href.split('#')[0] + '#disqus_thread';
-	});
-} 
-else {
-$('#custom').click(function () {
-	window.location='http://indie-game.blog.tut.by/o-bloge#disqus_thread';
-	});
-};
+		window.location='http://indie-game.blog.tut.by/o-bloge#disqus_thread';
+		});
+	};
+}
 $('#custom').mouseover(function(){
 	$(this).css({'cursor':'pointer', 'background': 'rgba(255, 255, 255,0.06)'});
 });
