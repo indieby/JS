@@ -5,7 +5,7 @@ locateCustom();
 $('#custom').css('top','70%');
 
 function bindClickPleaseComment(){
-	if($("#comment").length){        
+	if($("#comment")){        
 		$('#custom').click(function () {
 			document.location.href=document.location.href.split('#')[0] + '#disqus_thread';
 		});
